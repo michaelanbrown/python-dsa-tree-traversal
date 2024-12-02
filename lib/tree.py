@@ -12,3 +12,7 @@ class Tree:
 
   def get_element_by_id(self, id):
     pass
+
+  def breadth_first_traversal(node):
+    result = []
+    nodes_to_visit = [node]
