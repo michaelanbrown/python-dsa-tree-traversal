@@ -27,3 +27,26 @@ class Tree:
       nodes_to_visit = nodes_to_visit + node['children']
 
     return result
+
+
+child_1 = {
+  'value': 2,
+  'children': []
+}
+
+child_2 = {
+  'value': 3,
+  'children': []
+}
+
+child_3 = {
+  'value': 4,
+  'children': []
+}
+
+root = {
+  'value': 1,
+  'children': [child_1, child_2, child_3]
+}
+print(breadth_first_traversal(root))
+# => [1, 2, 3, 4]
