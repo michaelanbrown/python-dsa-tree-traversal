@@ -79,3 +79,14 @@ def depth_first_traversal(node):
     nodes_to_visit = node['children'] + nodes_to_visit
 
   return result
+
+#Depth First Recursive Solution
+
+def depth_first_traversal(node, result = []):
+  # visit each node (add it to the list of results)
+  result.append(node['value'])
+  for child in node['children']:
+    # visit each child node
+    depth_first_traversal(child, result)
+
+  return result
