@@ -25,3 +25,5 @@ class Tree:
       result.append(node['value'])
       # 3. Add its children (if any) to the END of the `nodes_to_visit` list
       nodes_to_visit = nodes_to_visit + node['children']
+
+    return result
