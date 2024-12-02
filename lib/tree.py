@@ -16,3 +16,5 @@ class Tree:
   def breadth_first_traversal(node):
     result = []
     nodes_to_visit = [node]
+
+    while len(nodes_to_visit) > 0:
