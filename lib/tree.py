@@ -19,4 +19,9 @@ class Tree:
 
     while len(nodes_to_visit) > 0:
 
-      # traverse our node
+      # 1. Remove the first node from the `nodes_to_visit` list
+      node = nodes_to_visit.pop(0)
+      # 2. Add its value to the result list
+      result.append(node['value'])
+      # 3. Add its children (if any) to the END of the `nodes_to_visit` list
+      nodes_to_visit = nodes_to_visit + node['children']
