@@ -52,3 +52,7 @@ root = {
 }
 print(breadth_first_traversal(root))
 # => [1, 2, 3, 4]
+
+
+
+#Depth First
