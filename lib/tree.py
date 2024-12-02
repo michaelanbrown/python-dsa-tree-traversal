@@ -18,3 +18,5 @@ class Tree:
     nodes_to_visit = [node]
 
     while len(nodes_to_visit) > 0:
+
+      # traverse our node
