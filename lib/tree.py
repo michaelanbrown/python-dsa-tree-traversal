@@ -1,11 +1,3 @@
-#Initialize an empty output list
-#Initialize an list of nodes to visit and add the root node to it
-#While there are nodes in the nodes to visit list
-  #Remove the first node from the nodes to visit list
-  #Add its value to the output list
-  #Add its children (if any) to the end of the nodes to visit list
-#Return the output list
-
 class Tree:
   def __init__(self, root = None):
     self.root = root
@@ -14,7 +6,16 @@ class Tree:
     pass
 
 
-#Breadth First
+### Breadth First
+
+#Initialize an empty output list
+#Initialize an list of nodes to visit and add the root node to it
+#While there are nodes in the nodes to visit list
+  #Remove the first node from the nodes to visit list
+  #Add its value to the output list
+  #Add its children (if any) to the end of the nodes to visit list
+#Return the output list
+
   def breadth_first_traversal(node):
     result = []
     nodes_to_visit = [node]
@@ -55,7 +56,7 @@ print(breadth_first_traversal(root))
 
 
 
-#Depth First
+###Depth First
 
 #Initialize an empty output list
 #Initialize an list of nodes to visit and add the root node to it
