@@ -10,6 +10,8 @@ class Tree:
       if current['id'] == id:
         return current
 
+    return None
+
 
 ### Breadth First
 
