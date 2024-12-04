@@ -5,6 +5,9 @@ class Tree:
   def get_element_by_id(self, id):
     nodes_to_visit = [self.root]
 
+    while nodes_to_visit:
+      
+
 
 ### Breadth First
 
