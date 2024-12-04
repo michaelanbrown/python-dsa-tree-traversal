@@ -10,6 +10,7 @@ class Tree:
       if current['id'] == id:
         return current
 
+      nodes_to_visit = nodes_to_visit + current['children']
     return None
 
 
