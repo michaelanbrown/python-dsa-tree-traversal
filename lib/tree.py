@@ -6,7 +6,7 @@ class Tree:
     nodes_to_visit = [self.root]
 
     while nodes_to_visit:
-      
+      current = nodes_to_visit.pop()
 
 
 ### Breadth First
