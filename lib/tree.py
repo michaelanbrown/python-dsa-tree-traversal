@@ -8,6 +8,7 @@ class Tree:
     while nodes_to_visit:
       current = nodes_to_visit.pop()
       if current['id'] == id:
+        return current
 
 
 ### Breadth First
